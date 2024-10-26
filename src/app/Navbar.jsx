@@ -10,8 +10,7 @@ function Navbar() {
   return (
     <div className=" flex justify-around w-dvw p-3 text-lg text-black bg-gray-50">
         <Link className={`link ${pathName === '/' ? 'underline' : ''}`} href="/">Home</Link>
-        <Link className={`link ${pathName === '/intro' ? 'underline' : ''}`} href="/intro">Intro-Server</Link>
-        <Link className={`link ${pathName === '/intro-client' ? 'underline' : ''}`} href="/intro-client">Intro-Client</Link>
+        <Link className={`link ${pathName === '/intro-client' ? 'underline' : ''}`} href="/intro-client">Intro</Link>
     </div>
   )
 }

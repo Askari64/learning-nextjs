@@ -21,12 +21,6 @@ function page() {
         >
           Home
         </button>
-        <button
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-md"
-          onClick={() => router.push("/intro")}
-        >
-          Intro-Server
-        </button>
       </div>
       <h1>Hello, This is Askari</h1>
       <p>I am a Full Stack Developer - Trying to be Jack of All</p>
