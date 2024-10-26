@@ -5,3 +5,7 @@
 ### Learnt using Layouts
 
 ### Dynamic Routes and Nested Dynamic Routes
+
+### docs folder contains catch-all routes
+
+### custom not-found page and conditional triggering via notFound from next/navigation
